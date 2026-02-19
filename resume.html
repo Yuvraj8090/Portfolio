@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuvraj Kohli - Full Stack Developer CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+            background-color: #f1f5f9;
+        }
+
+        .a4-page {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 2rem auto;
+            background-color: white;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            padding: 12mm 15mm;
+            box-sizing: border-box;
+        }
+
+        .page-break-inside-avoid {
+            break-inside: avoid;
+        }
+
+         @media print {
+            @page { size: A4; margin: 0; }
+            body { background-color: white !important; margin: 0; padding: 0; }
+            .no-print { display: none !important; }
+            .a4-page {
+                width: 100%; min-height: 100%; margin: 0; padding: 12mm 15mm;
+                box-shadow: none; border: none;
+            }
+        }
+    </style>
+</head>
+
+<body class="font-sans text-gray-800 antialiased">
+
+    <div class="fixed top-5 right-5 no-print z-50">
+        <button onclick="window.print()"
+            class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-5 rounded-full shadow-lg transition-transform transform hover:scale-105 flex items-center gap-2">
+            <i class="fa-solid fa-print"></i> Print / PDF
+        </button>
+    </div>
+
+    <div class="a4-page relative">
+
+        <header
+            class="flex flex-col md:flex-row justify-between items-center md:items-start border-b-2 border-indigo-600 pb-4 mb-4">
+            <div class="text-center md:text-left mb-3 md:mb-0">
+                <h1 class="text-4xl font-extrabold text-gray-900 uppercase tracking-tight">Yuvraj Kohli</h1>
+                <h2 class="text-lg font-medium text-indigo-600 mt-1"><i class="fa-solid fa-code mr-2"></i>Full Stack
+                    Developer | 3+ Years Experience</h2>
+            </div>
+            <div class="text-sm text-gray-600 space-y-1 font-medium text-center md:text-right">
+                <p><i class="fa-solid fa-location-dot text-indigo-500 mr-2"></i>Dehradun, Uttarakhand</p>
+                <p><i class="fa-solid fa-phone text-indigo-500 mr-2"></i>9258360243</p>
+                <p><a href="mailto:yuvrajkohli8090ylt@gmail.com" class="hover:text-indigo-600 transition"><i
+                            class="fa-solid fa-envelope text-indigo-500 mr-2"></i>yuvrajkohli8090ylt@gmail.com</a></p>
+                <p><a href="https://github.com/Yuvraj8090" target="_blank" class="hover:text-indigo-600 transition"><i
+                            class="fa-brands fa-github text-indigo-500 mr-2"></i>github.com/Yuvraj8090</a></p>
+            </div>
+        </header>
+
+        <section class="mb-5">
+            <h3 class="text-lg font-bold text-gray-900 border-b border-gray-200 pb-1 mb-2 flex items-center gap-2">
+                <i class="fa-solid fa-user-tie text-indigo-600"></i>Professional Summary
+            </h3>
+            <p class="text-gray-700 leading-relaxed text-[13px] text-justify">
+                Results-driven Full Stack Developer with over 3+ years of comprehensive experience architecting scalable
+                SaaS platforms, enterprise CRM systems, and government-level portals. Specialized in Laravel, modern
+                PHP, TypeScript, and complex API integrations. Proven track record of delivering high-stakes solutions
+                including multi-tenant HRMS architectures (NexusHR), real-time automation bots, and critical platforms for state
+                Govt Departments. A highly collaborative professional with successfully published  47+ GitHub repositories, demonstrating a
+                continuous drive to leverage AI integrations, robust database architectures, and clean UI design to
+                solve complex business challenges.
+            </p>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-5">
+            <section>
+                <h3 class="text-lg font-bold text-gray-900 border-b border-gray-200 pb-1 mb-2 flex items-center gap-2">
+                    <i class="fa-solid fa-bolt text-indigo-600"></i>Core Competencies
+                </h3>
+                <ul class="text-[13px] text-gray-700 space-y-1 list-none">
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Enterprise SaaS & CRM Architecture</li>
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Laravel, MVC & Multi-Tenant Systems</li>
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i>RESTful API Design for Mobile Backend Integration </li>
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i>AI Integrations & Document Systems</li>
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Bot Automation (WhatsApp, Telegram, Email
+                        Integration) & Webhooks</li>
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Role-Based Access Control Security & Role
+                        Workflows</li>
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i>CERT-In Security Compliance</li>
+
+                </ul>
+            </section>
+
+            <section>
+                <h3 class="text-lg font-bold text-gray-900 border-b border-gray-200 pb-1 mb-2 flex items-center gap-2">
+                    <i class="fa-solid fa-layer-group text-indigo-600"></i>Technical Stack
+                </h3>
+                <ul class="text-[13px] text-gray-700 space-y-1.5">
+                    <li><span class="font-semibold text-gray-900">Languages:</span> PHP, JavaScript (ES6+), TypeScript,
+                        Python, HTML5/CSS3</li>
+                    <li><span class="font-semibold text-gray-900">Frameworks:</span> Laravel (Blade), Tailwind CSS,
+                        ASP.Net, MERN</li>
+                    <li><span class="font-semibold text-gray-900">Databases:</span> MySQL, SQL Server, MongoDB</li>
+                    <li>
+                        <span class="font-semibold text-gray-900">DevOps & Tools:</span>
+                        Git, GitHub, Postman, IIS (Internet Information Services), Apache, Nginx, Shared & Dedicated
+                        Hosting,
+                        cPanel/WHM, SSH/FTP, Redis, Docker, Ollama (AI Orchestration), and Webhook Automation.
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <section class="mb-5 ">
+            <h3 class="text-lg font-bold text-gray-900 border-b border-gray-200 pb-1 mb-3 flex items-center gap-2">
+                <i class="fa-solid fa-briefcase text-indigo-600"></i>Professional Experience
+            </h3>
+
+            <div class="mb-5 ">
+    <div class="flex justify-between items-end mb-0.5">
+        <h4 class="text-[15px] font-bold text-gray-800">Yashi Associates</h4>
+        <span class="text-[11px] font-semibold bg-indigo-100 text-indigo-800 px-2 py-0.5 rounded">May 2025 - Present</span>
+    </div>
+    <p class="text-indigo-600 font-medium text-[13px] mb-1">Lead Full Stack Developer (AI & SaaS Architecture)</p>
+    <ul class="list-disc list-outside text-[13px] text-gray-700 space-y-1.5 ml-4 text-justify">
+        <li>
+            <strong>Next-Gen AI & SaaS Product Innovation:</strong> Leading the technical roadmap for AI-driven products, including an intelligent <strong>AI Resume Builder</strong> and automated document parsing systems. By integrating <strong>Local LLMs (Ollama) and Python-based AI agents</strong>, I have automated complex data extraction and content generation workflows, enhancing user efficiency by over 60%.
+        </li>
+        <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          
+        <li>
+            <strong>Advanced Travel CRM & IT Ecosystems:</strong> Spearheading the architecture of high-scale <strong>Travel CRM and IT Management platforms</strong>. I have engineered custom lead management pipelines, automated booking engines, and real-time financial tracking modules using <strong>Laravel and React</strong>, designed to handle high-volume transaction data with sub-second latency.
+        </li>
+         
+        <li>
+            <strong>Scalable Infrastructure & Security:</strong> Managing the full-stack deployment lifecycle across <strong>Dedicated Linux and Windows environments</strong>. I am responsible for maintaining strict <strong>CERT-In security compliances</strong>, implementing end-to-end encryption, multi-factor authentication, and automated backup protocols to ensure 99.9% uptime for enterprise-grade SaaS applications.
+        </li>
+    </ul>
+</div>
+           
+
+            <div class="mb-4 page-break-inside-avoid">
+    <div class="flex justify-between items-end mb-0.5">
+        <h4 class="text-[15px] font-bold text-gray-800">Call Connect India</h4>
+        <span class="text-[11px] font-semibold bg-gray-100 text-gray-600 px-2 py-0.5 rounded">Jan 2025 - May 2025</span>
+    </div>
+    <p class="text-indigo-600 font-medium text-[13px] mb-1">PHP Developer (SaaS & E-commerce Specialist)</p>
+    <ul class="list-disc list-outside text-[13px] text-gray-700 space-y-1.5 ml-4 text-justify">
+        <li>
+            <strong>E-commerce & CRM Architecture:</strong> Led the technical execution and backend engineering for high-traffic <strong>E-commerce platforms and Service CRM portals</strong>. Utilizing <strong>Laravel and Core PHP</strong>, I architected scalable product catalogs, multi-vendor management systems, and secure payment gateway integrations, ensuring a frictionless transactional experience for end-users.
+        </li>
+        <li>
+            <strong>Data Tracking & Analytics Dashboards:</strong> Designed and deployed advanced <strong>Data Tracking modules</strong> and interactive <strong>Analytics Dashboards</strong>. These systems aggregate real-time user metrics and sales data, utilizing optimized SQL queries and JSON-based reporting to provide stakeholders with deep visual insights into business performance and customer behavior patterns.
+        </li>
+        <li>
+            <strong>System Architecture & Logic Customization:</strong> Engineered robust, multi-layer <strong>Authentication Systems</strong> and comprehensive CMS modules from the ground up. I specialized in developing custom <strong>PHP logic hooks</strong> and API middleware within complex environments to bypass standard platform limitations, ensuring that every portal was perfectly tailored to specific enterprise business requirements.
+        </li>
+        <li>
+            <strong>Lead Management & Communication Flow:</strong> Developed automated lead-tracking pipelines and automated communication modules that integrate with <strong>RESTful APIs</strong>. This improved the efficiency of internal sales teams by automating data entry and providing real-time notifications for incoming customer inquiries through integrated webhook systems.
+        </li>
+    </ul>
+</div>
+
+            <div class="mb-4 ">
+    <div class="flex justify-between items-end mb-0.5">
+        <h4 class="text-[15px] font-bold text-gray-800">VerveGen Tech Pvt Ltd</h4>
+        <span class="text-[11px] font-semibold bg-gray-100 text-gray-600 px-2 py-0.5 rounded">Jul 2023 - Dec 2024</span>
+    </div>
+    <p class="text-indigo-600 font-medium text-[13px] mb-1">Web Developer (Backend & API Architect)</p>
+    <ul class="list-disc list-outside text-[13px] text-gray-700 space-y-1.5 ml-4 text-justify">
+        <li>
+            <strong>Scalable LMS & E-commerce Ecosystems:</strong> Engineered comprehensive <strong>Learning Management Systems (LMS)</strong> and high-performance <strong>E-commerce product APIs</strong> using the Laravel framework. I focused on building modular, maintainable codebases that supported complex course hierarchies, multi-vendor inventory systems, and automated payment reconciliation.
+        </li>
+        <li>
+            <strong>Database Engineering & Query Optimization:</strong> Spearheaded the optimization of complex <strong>MySQL schemas</strong> and indexing strategies. By refactoring inefficient queries and implementing intelligent database caching, I successfully reduced API latency by 45%, ensuring seamless platform performance during high-concurrency peak traffic periods.
+        </li>
+        <li>
+            <strong>Security & Access Control Architecture:</strong> Designed and implemented granular <strong>Role-Based Access Control (RBAC)</strong> systems for enterprise-grade admin dashboards. These systems featured multi-level permission layers, secure session handling, and comprehensive audit logs to ensure total data integrity for sensitive user information.
+        </li>
+        <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        <li>
+            <strong>Agile Integration & RESTful Services:</strong> Actively contributed to a high-velocity <strong>Agile/Scrum environment</strong>, delivering robust RESTful services and micro-service integrations. I collaborated closely with frontend teams to provide optimized JSON payloads and documented API endpoints using Postman, facilitating rapid feature deployment and cross-team efficiency.
+        </li>
+    </ul>
+</div>
+ <br />
+           
+           
+            <div class="page-break-inside-avoid">
+                <div class="flex justify-between items-end mb-0.5">
+                    <h4 class="text-[15px] font-bold text-gray-800">Yashi Associates</h4>
+                    <span class="text-[11px] font-semibold bg-gray-100 text-gray-600 px-2 py-0.5 rounded">Jan 2022 - Jul
+                        2023</span>
+                </div>
+                <p class="text-indigo-600 font-medium text-[13px] mb-1">Web Developer</p>
+                <ul class="list-disc list-outside text-[13px] text-gray-700 space-y-1.5 ml-4 text-justify">
+                    <li>
+                        <strong>Full-Stack Foundations & Enterprise Logic:</strong> Engineered secure, data-driven web
+                        applications from the ground up, specializing in the development of <strong>Custom Role-Based
+                            Dashboards</strong> and comprehensive <strong>MIS (Management Information System) Reporting
+                            modules</strong>.
+                    </li>
+                    <li>
+                        <strong>Government Project Delivery:</strong> Played a lead role in the digital transformation
+                        of state-level institutions, including the <strong>Uttarakhand Khadi Evam Village Industries
+                            Board</strong> and the <strong>Uttarakhand Paramedical Council</strong>. I architected the
+                        core database schemas and backend logic using <strong>PHP and SQL Server</strong> to ensure high
+                        performance and strict data integrity for government use cases.
+                    </li>
+                    <li>
+                        <strong>System Communication & API Architecture:</strong> Designed and deployed robust
+                        <strong>RESTful APIs</strong> to facilitate seamless communication between internal modules and
+                        third-party services. Managed the end-to-end hosting lifecycle, including server configuration
+                        on <strong>IIS and Apache</strong>, ensuring all applications met the necessary security
+                        protocols for state-level deployment.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h3 class="text-lg font-bold text-gray-900 border-b border-gray-200 pb-1 mb-4 flex items-center gap-2">
+                <i class="fa-solid fa-folder-tree text-indigo-600"></i>Key Projects & Portfolio Integrations
+            </h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-6">
+
+                <div class="page-break-inside-avoid">
+                    <h4 class="text-[14px] font-bold text-gray-800"><i
+                            class="fa-solid fa-cloud text-indigo-500 mr-2"></i>NexusHR (SaaS HRMS)</h4>
+                    <p class="text-[12.5px] text-gray-700 mt-1.5 leading-relaxed text-justify">
+                        Architected and developed NexusHR, a comprehensive, high-performance Software-as-a-Service
+                        (SaaS) Human Resource Management System tailored for modern enterprises. Built utilizing
+                        Laravel, MySQL, and a responsive Tailwind CSS frontend, the platform features a highly secure,
+                        multi-tenant database architecture ensuring complete data isolation between corporate clients.
+                        The system intricately streamlines the entire employee lifecycle, encompassing automated
+                        onboarding workflows, attendance tracking, dynamic payroll processing, and performance
+                        evaluation modules. I implemented granular Role-Based Access Control (RBAC) to manage
+                        hierarchical permissions seamlessly. Furthermore, robust RESTful APIs were engineered to
+                        facilitate seamless integration with external financial software and biometric hardware systems,
+                        ensuring an enterprise-ready HR solution.
+                    </p>
+                </div>
+
+                <div class="page-break-inside-avoid">
+                    <h4 class="text-[14px] font-bold text-gray-800"><i
+                            class="fa-solid fa-robot text-indigo-500 mr-2"></i>AI Doc System & Bot Automation</h4>
+                    <p class="text-[12.5px] text-gray-700 mt-1.5 leading-relaxed text-justify">
+                        Engineered a suite of intelligent automation tools heavily leveraging modern AI and asynchronous
+                        processing. The Python and TypeScript-based AI Document Management System utilizes LLM
+                        integrations to parse, classify, and extract critical metadata from unstructured enterprise
+                        documents with high accuracy. Additionally, I developed a sophisticated Video-SaaS pipeline
+                        designed for auto-uploading and streamlined media processing. Furthermore, I conceptualized and
+                        deployed a highly interactive WhatsApp Bot ecosystem. Built with robust Node.js/PHP webhook
+                        integrations and REST APIs, this bot handles real-time automated messaging, conversational
+                        workflows, and user query resolution, significantly reducing manual customer support overhead
+                        while demonstrating deep expertise in microservices.
+                    </p>
+                </div>
+                <br />
+                <br />
+                <br /><br />
+
+                <div class="page-break-inside-avoid"><br />
+                    <br />
+                    <br />
+                    <br />
+                    <h4 class="text-[14px] font-bold text-gray-800"><i
+                            class="fa-solid fa-building-shield text-indigo-500 mr-2"></i>State Government CRM Portals
+                    </h4>
+                    <p class="text-[12.5px] text-gray-700 mt-1.5 leading-relaxed text-justify">
+                        Spearheaded the end-to-end backend architecture and frontend integration for multiple
+                        high-stakes state government CRM portals, including Govt-Jal. Built fundamentally on the Laravel
+                        framework and Blade templating engine, these mission-critical platforms are engineered to handle
+                        massive data volumes and high concurrent user traffic securely. I implemented complex,
+                        multi-tiered bureaucratic approval workflows, transitioning legacy paper-based processes into
+                        fully digitized, trackable systems.The platforms feature advanced real-time analytics
+                        dashboards, public grievance redressal ticketing loops, and automated SLA tracking. By strictly
+                        adhering to government data security compliance and utilizing optimized MySQL queries, these
+                        portals ensure total data integrity and operational efficiency.
+                    </p>
+                </div>
+
+                <div class="page-break-inside-avoid">
+                    <h4 class="text-[14px] font-bold text-gray-800"><i
+                            class="fa-solid fa-server text-indigo-500 mr-2"></i>Asset & Payroll Management</h4>
+                    <p class="text-[12.5px] text-gray-700 mt-1.5 leading-relaxed text-justify">
+                        Developed and deployed a comprehensive, dual-facing Asset Management System utilized by multiple
+                        government divisions. This robust platform enables internal section users to log grievances
+                        regarding allocated physical and IT assets, while empowering administrative divisions with a
+                        centralized dashboard to track, assign, and resolve technical issues efficiently. In parallel, I
+                        managed the Uttarakhand Village Industries Board’s web-based payroll portal. This involved
+                        managing complex payroll calculation algorithms, tax deductions, and generating dynamic custom
+                        reports. Technologies leveraged across these systems included ASP.Net, SQL Server 2012, advanced
+                        JavaScript/jQuery for dynamic DOM manipulation, and secure IIS server hosting environments to
+                        guarantee high availability.
+                    </p>
+                </div>
+
+                <div class="page-break-inside-avoid">
+                    <h4 class="text-[14px] font-bold text-gray-800"><i
+                            class="fa-solid fa-mobile-screen-button text-indigo-500 mr-2"></i>Interactive Web
+                        Applications</h4>
+                    <p class="text-[12.5px] text-gray-700 mt-1.5 leading-relaxed text-justify">
+                        Demonstrated versatile full-stack capabilities through the creation of diverse, interactive web
+                        applications. Key projects include a 'Rafting Management System', a complete booking portal
+                        featuring date-based scheduling and comprehensive administrative tracking; and a fully
+                        functional web-based Ludo game, where I engineered complex real-time board game logic, state
+                        management, and player interactions using advanced JavaScript. Furthermore, I developed a
+                        localized Grampanchayat CMS for civic information dissemination, and a dynamic Restaurant-POS
+                        (Point of Sale) system encompassing real-time inventory tracking and automated billing. These
+                        frontends were heavily optimized utilizing Tailwind CSS and AOS (Animate On Scroll) to deliver
+                        aesthetically modern user experiences.
+                    </p>
+                </div>
+
+                <div class="page-break-inside-avoid">
+                    <h4 class="text-[14px] font-bold text-gray-800"><i
+                            class="fa-solid fa-certificate text-indigo-500 mr-2"></i>Uttarakhand Paramedical Council
+                    </h4>
+                    <p class="text-[12.5px] text-gray-700 mt-1.5 leading-relaxed text-justify">
+                        Architected a highly secure, high-stakes digital verification and registration portal
+                        specifically designed for the Uttarakhand Paramedical Council. This critical web application
+                        facilitates the intricate onboarding process for both individual medical students and
+                        large-scale healthcare institutions. I engineered sophisticated verification workflows that
+                        mandate rigorous digital document uploads, manual administrative scrutiny steps, and multi-level
+                        approvals before granting official council certifications. Built utilizing ASP.Net and SQL
+                        Server 2012, the system architecture prioritizes absolute data security, leveraging encrypted
+                        document storage, secure session management, and comprehensive audit trails. The backend was
+                        meticulously optimized to handle large file uploads seamlessly while maintaining rapid database
+                        query execution.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pb-6">
+
+
+            <section>
+                <h3 class="text-lg font-bold text-gray-900 border-b border-gray-200 pb-1 mb-2 flex items-center gap-2">
+                    <i class="fa-solid fa-graduation-cap text-indigo-600"></i>Education & Certifications
+                </h3>
+                <ul class="space-y-3">
+                    <li class="page-break-inside-avoid">
+                        <h4 class="font-bold text-[13.5px] text-gray-800">Foundation Computer Institute</h4>
+                        <p class="text-[12.5px] text-gray-600">Web Developer Course <span
+                                class="font-medium text-gray-500">(2022 - 2023)</span></p>
+                    </li>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <li class="page-break-inside-avoid">
+                        <h4 class="font-bold text-[13.5px] text-gray-800">Intermediate (12th Class)</h4>
+                        <p class="text-[12.5px] text-gray-600">NIOS Board <span
+                                class="font-medium text-gray-500">(Passed in 2022)</span></p>
+                    </li>
+
+                    <li class="page-break-inside-avoid">
+                        <h4 class="font-bold text-[13.5px] text-gray-800">High School (10th Class)</h4>
+                        <p class="text-[12.5px] text-gray-600">CBSE <span
+                                class="font-medium text-gray-500">(2018)</span></p>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <div class="mb-4">
+                    <h3
+                        class="text-lg font-bold text-gray-900 border-b border-gray-200 pb-1 mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-address-card text-indigo-600"></i>Personal Profile
+                    </h3>
+                    <ul class="text-[13px] text-gray-700 space-y-1.5">
+                        <li><span class="font-semibold text-gray-900 w-24 inline-block">Languages:</span> English, Hindi
+                        </li>
+                        <li><span class="font-semibold text-gray-900 w-24 inline-block">Strengths:</span> Positive
+                            Attitude, Co-Operative, Team Player</li>
+                        <li><span class="font-semibold text-gray-900 w-24 inline-block">Hobbies:</span> Reading,
+                            Learning New Technologies</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3
+                        class="text-lg font-bold text-gray-900 border-b border-gray-200 pb-1 mb-2 flex items-center gap-2">
+                        <i class="fa-brands fa-github-alt text-indigo-600"></i>Open Source Footprint
+                    </h3>
+                    <p class="text-[13px] text-gray-700">
+                        Maintaining an active GitHub profile with over <strong>47 repositories</strong> spanning backend
+                        APIs, modern UI designs, automation scripts, and full-stack MERN/Laravel applications.
+                        <br>
+                        <a href="https://github.com/Yuvraj8090" target="_blank"
+                            class="text-indigo-600 font-semibold hover:underline mt-1.5 inline-block">Explore
+                            Repositories &rarr;</a>
+                    </p>
+                </div>
+            </section>
+            <section class="mt-8 pt-4 border-t border-gray-100">
+            <p class="text-[12px] text-gray-600 italic mb-6">
+                I hereby declare that all information stated above is true as per my best knowledge and belief.
+            </p>
+            <div class="flex justify-between items-end">
+                <div class="text-[13px] text-gray-800">
+                    <p><strong>Date:</strong> 19th February 2026</p>
+                    <p><strong>Place:</strong> Dehradun, Uttarakhand</p>
+                </div>
+                <div class="text-right">
+                    <p class="font-bold text-gray-900 text-[15px] border-t border-gray-900 pt-1 px-4 inline-block">Yuvraj Kohli</p>
+                </div>
+            </div>
+        </section>
+
+        </div>
+    </div>
+</body>
+
+</html>
